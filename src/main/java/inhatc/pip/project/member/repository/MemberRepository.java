@@ -11,5 +11,6 @@ import inhatc.pip.project.member.entity.Member;
 public interface MemberRepository extends JpaRepository<Member, Long>, 
 	QuerydslPredicateExecutor<Member>{
 	
+		
 	
 }
