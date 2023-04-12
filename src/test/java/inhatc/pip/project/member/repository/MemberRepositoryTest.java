@@ -55,7 +55,7 @@ class MemberRepositoryTest {
 		
 		List<Member> list = queryFactory
 			.select(member)
-			.from(member)
+			.from(member)			
 			.where(member.name.like("%" +"홍길동1" + "%"))
 			.fetch();
 		
